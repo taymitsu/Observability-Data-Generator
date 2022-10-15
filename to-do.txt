@@ -1,0 +1,27 @@
+10/15 TO DO: 
+
+1. What tech stack am I using? 
+  -JavaScript, py, html, css per partner communications
+
+2. Layout landing page
+	form: Realm, Token, RUM Token, Environment Name 
+
+    -error message when information entered incorrectly.
+      prompt user to reenter, error message
+      ***confirm requirements for information with partner***
+          ex: realm number should be 10 digits long, etc. 
+
+		-initiate button -> onClick submit, navigate/link to second page
+
+    -eventually: if statement for additional information needed from user 
+      if user enters realm < 5
+        then prompt user to enter additional realm
+        ***asked partner for specifics on when user will need to be prompted for more information*** 10/15 tm 
+
+      
+3. 2nd page 
+	-skeleton +rough format 
+  -pop up window OnClick OR on Hover for more information/description 
+    asked partner for feedback on popup window on click or hover over scenario box 10/15 tm
+
+	
