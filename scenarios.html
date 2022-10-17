@@ -5,11 +5,55 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scenarios</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <header class='page-header'>
+    <div class="status-bar">
+      <div class="container">
+          <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select
+                  <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Recents</a>
+                      <ul class="dropdown-menu">
+                          <li class="content">
+                              <a tabindex="-1" href="#">Name</a>
+                              <input id="image1" class="image1" type="image" alt="" src="./icons/play.png"
+                                  onclick="changeImage()" />
+                          </li>
+                          <li class="content">
+                              <a tabindex="-1" href="#">Name</a>
+                              <input id="image1" class="image1" type="image" alt="" src="./icons/play.png"
+                                  onclick="changeImage()" />
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                      <a class="test" tabindex="-1" href="#">Running</a>
+                      <ul class="dropdown-menu">
+                          <li class="content">
+                              <a tabindex="-1" href="#">Scenario 1</a>
+                              <button class="button">Play</button>
+                          </li>
+                          <li class="content">
+                              <a tabindex="-1" href="#">Scenario 2</a>
+                              <button>Play</button>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div class="form-outline">
+          <input type="search" id="form1" class="form-control" placeholder="Search" aria-label="Search" />
+      </div>
+  </div>
     <main>
       <div class='items' id='items'>
     </div>
