@@ -382,24 +382,28 @@ Responsive */
 
 /* Scenario cards */
 
+div.item{
+  padding: 6px;
+}
+
+
 .items{
+  font-family: Helvetica;
   width: 80%;
   margin: auto;
   display: grid;
-  grid-gap: 1em;
+  grid-gap: 3em;
   grid-template-columns: repeat(3, 1fr);
 }
 
 .item button{
-  border-radius: 4px;
-  background-color:whitesmoke;
-  border-width: thin;
   font-size: 8px;
   padding: 1.5px;
   display: flex;
   text-align: center;
   margin: auto;
-
+  text-decoration: none;
+  float: right;
 }
 
 .item{
@@ -411,4 +415,13 @@ Responsive */
 
 .item p{
   font-size: 12px;
+  margin: 10px;
+}
+
+.item name{
+  font-family: Helvetica;
+  font-weight: bold;
+  padding: 6px;
+  padding-top: 10px;
+  margin: 6px;
 }
