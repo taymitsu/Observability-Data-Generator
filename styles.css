@@ -381,8 +381,8 @@ Scenario cards*/
   width: 80%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .item button{
@@ -391,7 +391,6 @@ Scenario cards*/
   border-width: thin;
   font-size: 8px;
   padding: 1.5px;
-  /* stretch, center add to cart button*/
   display: flex;
   text-align: center;
   margin: auto;
