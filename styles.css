@@ -130,7 +130,7 @@ Initial Data Entry Point */
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-  padding: 77px 55px 33px 55px;
+  padding: 97px 55px 73px 55px;
 
   box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
@@ -153,6 +153,7 @@ Form*/
   color: #333333;
   line-height: 1.2;
   text-align: center;
+  padding: 22px;
 }
 .login100-form-title i {
   font-size: 60px;
@@ -305,6 +306,7 @@ Initiate Button */
 
 .wrap-login100-form-btn {
   width: 100%;
+
   display: block;
   position: relative;
   z-index: 1;
@@ -362,4 +364,12 @@ Responsive */
   .wrap-login100 {
     padding: 77px 15px 33px 15px;
   }
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.p-t-115 {
+  padding-top: 90px;
 }
