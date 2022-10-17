@@ -373,3 +373,38 @@ Responsive */
 .p-t-115 {
   padding-top: 90px;
 }
+
+/* 
+Scenario cards*/
+
+.items{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.item button{
+  border-radius: 4px;
+  background-color:whitesmoke;
+  border-width: thin;
+  font-size: 8px;
+  padding: 1.5px;
+  /* stretch, center add to cart button*/
+  display: flex;
+  text-align: center;
+  margin: auto;
+
+}
+
+.item{
+  border: solid .3em;
+  border-color: black;
+  border-width: 1.5px;
+  border-radius: 11px;
+}
+
+.item p{
+  font-size: 12px;
+}
