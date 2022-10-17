@@ -7,20 +7,21 @@ for (let i = 0; i < data.length; i += 1) {
 	newDiv.className = 'item'
   console.log('item')
 
+  //name
   const name = document.createElement('name');
   name.innerText = data[i].name
   newDiv.appendChild(name)
   itemsContainer.appendChild(newDiv);
 
+  //desc
   const desc = document.createElement('P')
 	desc.innerText = data[i].desc
-	// append the desc to the div
 	newDiv.appendChild(desc)
   
 
-	// Play buttone
+	// Play button
 	const button = document.createElement('button')
-	button.id = data[i].name
+	button.id = data[i].button
 	button.innerHTML = "Play"
 	newDiv.appendChild(button)
 }

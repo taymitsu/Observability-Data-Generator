@@ -15,14 +15,17 @@ a {
 	font-family: Helvetica;
 	font-size: 14px;
 	line-height: 1.7;
-	color: #666666;
+	color: white;
 	margin: 0px;
 	transition: all 0.4s;
 	-webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
+  text-decoration: none;
 }
-
+.txt1 > a {
+  color: black;
+}
 a:focus {
 	outline: none !important;
 }
@@ -366,16 +369,18 @@ Responsive */
   }
 }
 
+/* HELP SECTION, BOTTOM */ 
 .text-center {
   text-align: center!important;
+  text-decoration: none;
 }
 
 .p-t-115 {
   padding-top: 90px;
+  text-decoration: none;
 }
 
-/* 
-Scenario cards*/
+/* Scenario cards */
 
 .items{
   width: 80%;
