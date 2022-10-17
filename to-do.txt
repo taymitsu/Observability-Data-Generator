@@ -6,12 +6,12 @@
 2. Layout landing page
 	form: Realm, Token, RUM Token, Environment Name 
 
-    -error message when information entered incorrectly.
+		-initiate button -> onClick submit, navigate/link to second page
+
+    -eventually: -error message when information entered incorrectly.
       prompt user to reenter, error message
       ***confirm requirements for information with partner***
           ex: realm number should be 10 digits long, etc. 
-
-		-initiate button -> onClick submit, navigate/link to second page
 
     -eventually: if statement for additional information needed from user 
       if user enters realm < 5
