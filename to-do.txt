@@ -1,10 +1,10 @@
 10/15 TO DO: 
 
-1. What tech stack am I using? 
+✅1. What tech stack am I using? 
   -JavaScript, py, html, css per partner communications
 
 2. Layout landing page
-	form: Realm, Token, RUM Token, Environment Name 
+	✅form: Realm, Token, RUM Token, Environment Name 
 
 		-initiate button -> onClick submit, navigate/link to second page
 
