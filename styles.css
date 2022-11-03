@@ -435,7 +435,36 @@ div.item{
   box-sizing: border-box;
   
 }
-.container .dropdown{
+.toprow {
+  display: flex;
+}
+
+.menu_button {
+  padding: 15px;
+}
+
+li {
+  list-style: none;
+  border-bottom: 1px solid black;
+}
+
+.menu {
+  border: 1px solid black;
+  z-index: 1;
+}
+
+.menu_button {
+  transition: all ease 0.25s;
+}
+
+.button2 {
+  opacity: 0.1;
+}
+
+#menu_2 {
+  display: none;
+}
+/* .container .dropdown{
   margin-right: 3rem;
 }
 .dropdown-submenu {
@@ -460,4 +489,4 @@ div.item{
 .dropdown-menu li a {
   padding-right: 5rem;
   
-}
+} */
