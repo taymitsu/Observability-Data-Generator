@@ -431,10 +431,17 @@ div.item{
 }
 
 /* JEREMY STATUS BAR */
-.status-bar {
-  display: flex
+.container{
+  display: flex;
+  justify-content: flex-start;
+  width: 83%;
+  margin-bottom: 3rem;
+  box-sizing: border-box;
+  
 }
-
+.container .dropdown{
+  margin-right: 3rem;
+}
 .dropdown-submenu {
   position: relative;
 }
@@ -453,4 +460,8 @@ div.item{
   height: 2em;
   width: auto;
   display: inline-block;
+}
+.dropdown-menu li a {
+  padding-right: 5rem;
+  
 }
