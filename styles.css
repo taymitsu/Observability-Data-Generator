@@ -360,8 +360,7 @@ Initiate Button */
 }
 
 
-/*------------------------------------------------------------------
-Responsive */
+/* Responsive */
 
 @media (max-width: 576px) {
   .wrap-login100 {
@@ -380,13 +379,13 @@ Responsive */
   text-decoration: none;
 }
 
-/* Scenario cards */
+/*---------------------------------------------------------------
+ Scenario cards */
 
 div.item{
   padding: 6px;
+  
 }
-
-
 .items{
   font-family: Helvetica;
   width: 80%;
@@ -410,7 +409,12 @@ div.item{
   border: solid .3em;
   border-color: black;
   border-width: 1.5px;
-  border-radius: 11px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 .item p{
