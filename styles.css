@@ -464,7 +464,7 @@ li {
 #menu_2 {
   display: none;
 }
-/* .container .dropdown{
+.container .dropdown{
   margin-right: 3rem;
 }
 .dropdown-submenu {
@@ -489,4 +489,4 @@ li {
 .dropdown-menu li a {
   padding-right: 5rem;
   
-} */
+}
