@@ -42,3 +42,5 @@ function changeImage(){
       displayImage.src = "./icons/play.png"
   }
 }
+
+
