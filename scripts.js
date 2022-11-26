@@ -1,4 +1,12 @@
+//////////////////////////////
+
+//Javascript for Scenarios page, including status bar 
+
+//////////////////////////////
+
+
 import data from './data.js'
+
 const itemsContainer = document.querySelector('#items');
 
 for (let i = 0; i < data.length; i += 1) {

@@ -14,31 +14,36 @@
 
 const realm = document.getElementById('realm')
 const token = document.getElementById('token')
-const RUM = document.getElementById('RUM')
+const rum = document.getElementById('rum')
 const envName = document.getElementById('envName')
 const form = document.getElementById('form')
 const errorElement = document.getElementById('error')
 
 form.addEventListener('submit', (e) => {
-  let errors = []
+  let messages = []
   if (realm.value.length >= 3) {
-    errors.push('REALM must be 3 characters in length. Please try again.')
+    console.log('heeeeere')
+    messages.push('REALM must be 3 characters in length. Please try again.')
   }
 
   if (token.value.length >= 20) {
-    errors.push('Token cannot exceed 20 characters. Please try again.')
+    console.log('heeeeere')
+    messages.push('Token cannot exceed 20 characters. Please try again.')
   }
 
-  if (RUM.value.length >= 20) {
-    errors.push('RUM Token cannot exceed 20 characters. Please try again.')
+  if (rum.value.length >= 20) {
+    console.log('heeeeere')
+    messages.push('RUM Token cannot exceed 20 characters. Please try again.')
   }
 
   if (envName.value.length >= 30) {
-    errors.push('Environment Name cannot exceed 30 characters. Please try again.')
+    console.log('heeeeere')
+    messages.push('Environment Name cannot exceed 30 characters. Please try again.')
   }
 
-  if (errors.length > 0){
+  if (messages.length > 0){
   e.preventDefault()
-  errorElement.innerText = errors.join(', ')
+  errorElement.innerText = messages.join(', ')
   }
 })
+
