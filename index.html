@@ -12,43 +12,42 @@
   <div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<form class="login100-form validate-form">
+
+				<form action= "/" method="GET" class="login100-form validate-form">
 					<span class="login100-form-title p-b-26">
 						Enter the required information to connect to our services
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter Realm">
-						<input class="input100" type="text" name="Realm">
+						<input class="input100" type="text" name="realm" required>
 						<span class="focus-input100" data-placeholder="Realm"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter Token">
 						<span class="btn-show-token">
 						</span>
-						<input class="input100" type="password" name="Token">
+						<input class="input100" type="text" name="token" required>
 						<span class="focus-input100" data-placeholder="Token"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter RUM Token">
 						<span class="btn-show-rumt">
 						</span>
-						<input class="input100" type="password" name="RUM Token">
+						<input class="input100" type="password" name="RUM" required>
 						<span class="focus-input100" data-placeholder="RUM Token"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate="Enter Environment Name">
 						<span class="btn-show-envname">
 						</span>
-						<input class="input100" type="password" name="Environment Name">
+						<input class="input100" type="password" name="envName" required>
 						<span class="focus-input100" data-placeholder="Environment Name"></span>
 					</div>
 
 					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<button class="login100-form-btn">
-								<a href="scenarios.html">Initiate</a>
-							</button>
+							<button class="login100-form-btn" type="submit">Initiate</button>
 						</div>
 					</div>
 
@@ -62,6 +61,6 @@
 		</div>
 	</div>
 
-	<script src='scripts.js' type="module"></script>
+	<script src='requirements.js' type="module"></script>
 </body>
 </html>
