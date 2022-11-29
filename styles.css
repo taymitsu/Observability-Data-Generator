@@ -467,6 +467,7 @@ li {
 .container .dropdown{
   margin-right: 3rem;
 }
+
 .dropdown-submenu {
   position: relative;
 }
@@ -479,6 +480,8 @@ li {
 
 .content {
   display: flex;
+  justify-content: flex-start;
+  
 }
 
 .image1 {
